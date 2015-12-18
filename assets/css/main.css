@@ -1,0 +1,111 @@
+/* General style settings
+   ========================================================================== */
+
+/**
+ * Boxes
+ */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/**
+ * Clearfix
+ */
+
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.container {
+  clear: both;
+  *zoom: 1;
+}
+
+/**
+ * Grid system
+ */
+
+.grid,
+.col-1-2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-1-2 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 49%;
+}
+
+/* Site's elements and classes
+   ========================================================================== */
+
+/**
+ * Body and main layout
+ */
+
+body {
+  background: rgba(125, 125, 125, 0.2);
+}
+
+.layout {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+/**
+ * Header section
+ */
+
+header {
+  margin-bottom: 1.5%;
+  margin-top: 0.5%;
+}
+
+/**
+ * Navigation section
+ */
+
+.site-nav-container {
+  float: left;
+  margin: 0 1.5%;
+  width: 10%;
+}
+
+.site-nav-list,
+.site-nav-nested-list {
+  list-style-type: none;
+  padding-left: 0.5em;
+}
+
+/**
+ * Content section
+ */
+
+main {
+  float: left;
+  margin: 0 1.5%;
+  width: 83%
+}
+
+/**
+ * Footer section
+ */
+
+footer {
+  margin-bottom: 0.5%;
+  margin-top: 1.5%;
+}
+
