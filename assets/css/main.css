@@ -49,6 +49,19 @@
   width: 49%;
 }
 
+/**
+ * Anchor settings
+ */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+}
+
 /* Site's elements and classes
    ========================================================================== */
 
