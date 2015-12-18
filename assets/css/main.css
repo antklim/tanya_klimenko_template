@@ -57,7 +57,7 @@
  */
 
 body {
-  background: rgba(125, 125, 125, 0.2);
+  background: rgba(200, 200, 200, 0.2);
 }
 
 .layout {
@@ -87,7 +87,7 @@ header {
 .site-nav-list,
 .site-nav-nested-list {
   list-style-type: none;
-  padding-left: 0.5em;
+  padding-left: 0;
 }
 
 /**
