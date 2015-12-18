@@ -81,13 +81,32 @@ header {
 .site-nav-container {
   float: left;
   margin: 0 1.5%;
-  width: 10%;
+  width: 15%;
 }
 
 .site-nav-list,
 .site-nav-nested-list {
+  letter-spacing: .05em;
   list-style-type: none;
   padding-left: 0;
+}
+
+.site-nav-list {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.site-nav-list li {
+  margin-top: 1em;
+}
+
+.site-nav-nested-list {
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.site-nav-nested-list li {
+  margin-top: .3em;
 }
 
 /**
@@ -97,7 +116,7 @@ header {
 main {
   float: left;
   margin: 0 1.5%;
-  width: 83%
+  width: 78%
 }
 
 /**
